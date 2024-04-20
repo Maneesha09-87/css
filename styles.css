@@ -1,0 +1,29 @@
+h1 {
+  color: brown;
+  background-color: aquamarine;
+}
+html {
+  background-color: blue;
+}
+.large-screens {
+  display: none;
+}
+@media (min-width: 300px) {
+  .large-screens {
+    display: block;
+  }
+  color: ;
+  .small-screens {
+    display: none;
+  }
+}
+input :checked {
+  width: 24px;
+  height: 24px;
+}
+p::before {
+  content: " ";
+}
+p::after {
+  content: " hello";
+}
